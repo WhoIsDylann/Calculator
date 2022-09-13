@@ -43,6 +43,15 @@ reader.question("What would you like to calculate?", function(input){
 	else if (mathSymbol === "sqrt") {
 		console.log (Math.sqrt (num1))
 	}
+	else if (mathSymbol === "cube") {
+	    console.log ( Math.cbrt (num1) )	
+	}
+	else if (mathSymbol === "raise") {
+		console.log ( Math.pow (num1,num2) )
+	}
+	else if (mathSymbol === "%") {
+		console.log (num1 % num2)
+	}
 	else { console.log ("Input not valid , you are dumb.")
 	} 
 	
