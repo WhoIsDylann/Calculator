@@ -53,3 +53,4 @@ reader.question("What would you like to calculate?", function(input){
 	reader.close()
 
 });
+//lukas is cool
